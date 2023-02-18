@@ -11,15 +11,18 @@ const QuizResult = () => {
 		setScore,
 		attemptedQuestions,
 		setAttemptedQuestions,
-    correctAnswers,
-    setCorrectAnswers,
+    	correctAnswers,
+	  	setCorrectAnswers,
+		reLoad,
+		setReLoad,
 	} = useContext(QuizStateContext);
   
   function playAgain() {
     setQuizState("playing");
-    setScore(0)
-    setAttemptedQuestions(0)
-    setCorrectAnswers(0)
+	  setScore(0);
+	  setAttemptedQuestions(0);
+	  setCorrectAnswers(0);
+	  setReLoad(reLoad + 1)
   }
 
   return (

@@ -10,7 +10,7 @@ const JoinQuiz = () => {
   return (
 		<div className='start-quiz quiz-body flex'>
 			<h1>Join Quiz</h1>
-			<p>You have 60 secs to answer <br/> these questions</p>
+			<p>You have 10 secs to answer <br/> each question. Let's go!</p>
 			<button className='start-btn btn' onClick={startQuiz}>Start Quiz</button>
 		</div>
 	);

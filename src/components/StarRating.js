@@ -25,7 +25,7 @@ const { score } = useContext(QuizStateContext);
         return (
             <>
                 <FaStar className='star star-1' />
-                <FaStarHalfAlt className='star star-1' />
+                <FaStarHalfAlt className='star star-2' />
                 <FaRegStar className='star star-3' />
             </>
 		);
@@ -42,7 +42,7 @@ const { score } = useContext(QuizStateContext);
 			<>
 				<FaStar className='star star-1' />
 				<FaStar className='star star-2' />
-				<FaStarHalfAlt className='star star-1' />
+				<FaStarHalfAlt className='star star-3' />
 			</>
 		);
 	} else if (score === 100) {
@@ -50,7 +50,7 @@ const { score } = useContext(QuizStateContext);
 			<>
 				<FaStar className='star star-1' />
 				<FaStar className='star star-2' />
-				<FaStar className='star star-2' />
+				<FaStar className='star star-3' />
 			</>
 		);
 	} else {
